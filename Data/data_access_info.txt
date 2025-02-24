@@ -1,0 +1,6 @@
+The datasets used for building the book recommendation system are taken from Kaggle.
+
+Link for the datasets : https://www.kaggle.com/datasets/arashnic/book-recommendation-dataset/data
+
+We used three datasets : 
+Books.csv, Ratings.csv, and Users.csv
