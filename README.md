@@ -15,16 +15,3 @@ Conducted Exploratory Data Analysis to understand the data distribution.
 Performed data preprocessing to clean and merge datasets.
 Analyzed user behavior and book metadata for better recommendations.
 
-Project Structure
-cap5771sp25-project/
-├── Readme.md                      # Project documentation
-├── Data/                          # Datasets used for analysis
-│   ├── Books.csv
-│   ├── Ratings.csv
-│   ├── Users.csv
-│   ├── data_access_info.txt
-├── Report/                         # Reports for milestones
-│   ├── Milestone1.pdf
-├── Scripts/                       
-│   ├── BookRecommendationSystem.ipynb  # Jupyter Source file            
-│   ├── requirements.txt              # Dependencies
