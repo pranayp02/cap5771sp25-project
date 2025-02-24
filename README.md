@@ -10,7 +10,7 @@ users to input their preferences, ratings, and then the system will generate rec
 on user’s profile of historical ratings and book preferences. 
 
 Milestone 1: Data Collection, Preprocessing and Exploratory Data Analysis
-Datasets are taken from the Kaggle.( Books.csv, Ratings.csv, Users.csv)
+Datasets are taken from the Kaggle.(Books.csv, Ratings.csv, Users.csv)
 Conducted Exploratory Data Analysis to understand the data distribution.
 Performed data preprocessing to clean and merge datasets.
 Analyzed user behavior and book metadata for better recommendations.
