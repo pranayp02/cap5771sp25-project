@@ -8,14 +8,4 @@ During Milestone 1, datasets from Kaggle (Books.csv, Ratings.csv, Users.csv) wer
 
 This end-to-end project highlights the importance of combining well-engineered features with scalable machine learning models and user-friendly design to build a practical and intelligent recommendation system.
 
-Let me know if you'd like to tailor this further for submission or include links/screenshots.
-
-
-
-
-
-
-
-
-
 
