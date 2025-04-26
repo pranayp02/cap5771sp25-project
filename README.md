@@ -1,11 +1,44 @@
-Project Title: SMARTSHELF: BOOK RECOMMENDATION SYSTEM USING CONTENT-BASED AND COLLABORATIVE FILTERING TECHINQUES 
 
-This project aims to build a personalized book recommendation system that suggests books to users based on their reading preferences and historical ratings. It combines content-based filtering and collaborative filtering approaches to enhance the accuracy of recommendations. The system takes into account both the metadata of books (such as title, author, and publisher) and user behavior (like previously rated books).
+# SmartShelf: A Personalized Book Recommendation System
 
-The core functionality is implemented as a web application using Streamlit. Users can sign up, log in, search for book titles, rate books, and receive tailored recommendations. The recommendation engine includes three main strategies: predicting the publisher using a TF-IDF vectorizer and a classification model, recommending similar books using K-Nearest Neighbors on metadata, and collaborative filtering based on user ratings using a user-item matrix.
+SmartShelf is a personalized book recommendation system that suggests books based on a user's search queries, reading history and ratings. It uses publisher-based, content-based and collaborative filtering recommendation techniques in order to offer personalized recommendations. The project is developed as a Streamlit web application, making it easy and interactive for users to discover new books.
 
-During Milestone 1, datasets from Kaggle (Books.csv, Ratings.csv, Users.csv) were collected and cleaned. Exploratory Data Analysis (EDA) was performed to understand rating patterns and user-book relationships. In Milestone 2, machine learning models were trained for the three recommendation techniques. Milestone 3 focused on developing an interactive front-end using Streamlit and connecting it to the trained models for real-time recommendations.
 
-This end-to-end project highlights the importance of combining well-engineered features with scalable machine learning models and user-friendly design to build a practical and intelligent recommendation system.
 
+## Features
+- User Authentication: SignUp and Login functionality.
+- Publisher-Based Recommendation: Predicts the publisher from the keyword and recommends books from the same publisher.
+- Content-Based Recommendation: Suggests books with similar metadata(author, publisher) and ratings.
+- Collaborative Filtering: Recommends books liked by similar users. 
+- User Ratings Profile: Users can view, update and delete their ratings.
+ 
+## Demo
+
+https://github.com/user-attachments/assets/fc6a979e-1f19-4cde-8bfe-ec036b5be90f
+
+
+Application Demo Video can be found here:
+
+https://drive.google.com/drive/folders/1TsWEz7_bH7qw0a0auy9_jIjo-1MJ51dS?usp=sharing
+
+
+
+## Tech Stack
+
+- Python
+- Streamlit
+- SQLite3 for User Authentication and Ratings Storing
+- Pandas, Numpy for data handling
+- Scikit-learn for ML models
+- Matlplotlib, Seaborn for EDA Visualizations
+
+
+## Documentation
+[Final Report.pdf](https://github.com/user-attachments/files/19919360/Final.Report.pdf)
+
+
+
+## Authors
+
+- [@pranayp02](https://www.github.com/pranayp02)
 
